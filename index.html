@@ -156,13 +156,10 @@
                     <!-- define your challenge here -->
                     config = {};
                     config.challenge = 
-                        "let a = \'a\'; \n" +
-                        "let b = \'b\'; \n" +
-                        "let holder = undefined; \n" +
+                        "let a = \'a\', b = \'b\', holder = undefined; \n" +
                         "holder = a; \n" +
                         "a = b; \n" +
-                        "b = holder; \n" +
-                        "// hint: let a, b, holder  #distractor";
+                        "b = holder; \n";
                     config.shuffled_id = "shuffled-value-swap";
                     config.sorted_id = "sorted-value-swap";
                     config.reshuffle_id = "reshuffle-value-swap";
