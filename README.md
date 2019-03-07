@@ -1,6 +1,6 @@
 ## Variables & Blocks
 
-live parsons problems [live here](https://colevanderswands.github.io/parsons-vars-blocks)
+live parsons problems [live here](https://janke-learning.github.io/parsons-variables)
 
 > powered by [js-parsons](https://js-parsons.github.io)
 
