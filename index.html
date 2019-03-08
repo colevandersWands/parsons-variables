@@ -192,15 +192,9 @@
                     <!-- define your challenge here -->
                     config = {};
                     config.challenge = 
-                        "console.log(_let); // -> ReferenceError: _let is not defined \n"+
                         "console.log(_var); // logs: undefined \n"+
-
-                        "let _let = \"lleett\"; \n"+
                         "var _var = \"vvaarr\"; \n"+
-
-                        "console.log(_let); // logs: lleett \n"+
-                        "console.log(_var); // logs: vvaarr \n"+
-                        "// hint:  2 logs, 2 assignments, 2 logs.  let before var #distractor \n";
+                        "console.log(_var); // logs: vvaarr \n";
                     config.shuffled_id = "shuffled-hoisting";
                     config.sorted_id = "sorted-hoisting";
                     config.reshuffle_id = "reshuffle-hoisting";
